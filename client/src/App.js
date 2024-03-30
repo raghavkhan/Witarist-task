@@ -1,5 +1,4 @@
 import "./App.css";
-import Radio from "./components/radio";
 import DisplayInfo from "./containers/DisplayInfo";
 // import Form from "./containers/Form";
 const styles = {
@@ -9,7 +8,6 @@ const styles = {
   top: "10%",
 };
 function App() {
-  {console.log('wbswbdj')}
   return (
     <>
       <div className='container'>

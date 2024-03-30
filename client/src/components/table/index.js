@@ -18,7 +18,6 @@ const Table = ({ headers, data, onDelete, onUpdate }) => {
             <tr key={rowData?.id}>
               <td>{rowData?.taskName}</td>
               <td>{rowData?.priority}</td>
-              {/* <td>{rowData?.city}</td> */}
               <td>
                 <button onClick={() => onDelete(rowData?.id)}>Delete</button>
               </td>
