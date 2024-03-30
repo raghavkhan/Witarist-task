@@ -9,6 +9,7 @@ const styles = {
   top: "10%",
 };
 function App() {
+  {console.log('wbswbdj')}
   return (
     <>
       <div className='container'>
